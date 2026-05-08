@@ -1,0 +1,5 @@
+{
+    "url": "my/update/zip/file/path",
+    "zip_filename": "zip_filename.zip",
+    "target_directory": "./extracted/target_directory"
+}
