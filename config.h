@@ -22,7 +22,7 @@ public:
     //getters
     std::string getUrl() const;
     std::string getTargetDir() const;
-    std::string geZipFilename() const;
+    std::string getZipFilename() const;
 
 private:
     std::string url = "";

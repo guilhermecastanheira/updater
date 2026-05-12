@@ -15,7 +15,7 @@ int main() {
 
     const std::string url = config.getUrl();
     const std::string targetDir = config.getTargetDir();
-    const std::string zipFilename = config.geZipFilename();
+    const std::string zipFilename = config.getZipFilename();
 
     std::println("Downloading the update package...");
     auto download = update.downloadUpdate(url, zipFilename);

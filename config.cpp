@@ -13,7 +13,7 @@ std::string Config::getTargetDir() const {
     return this->targetDir;
 }
 
-std::string Config::geZipFilename() const {
+std::string Config::getZipFilename() const {
     return this->zipName;
 }
 
